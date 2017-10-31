@@ -1,6 +1,6 @@
-# FactoryGirlSequences [![Build Status](https://secure.travis-ci.org/melekes/factory_girl_sequences.png "Build Status")](http://travis-ci.org/melekes/factory_girl_sequences) [![Gem Version](https://badge.fury.io/rb/factory_girl_sequences.png)](http://badge.fury.io/rb/factory_girl_sequences)
+# FactoryBotSequences [![Build Status](https://secure.travis-ci.org/melekes/factory_bot_sequences.png "Build Status")](http://travis-ci.org/nutsoriginal/factory_bot_sequences) [![Gem Version](https://badge.fury.io/rb/factory_girl_sequences.png)](http://badge.fury.io/rb/factory_girl_sequences)
 
-Collection of useful [FactoryGirl](http://github.com/thoughtbot/factory_girl)
+Collection of useful [FactoryBot](http://github.com/thoughtbot/factory_bot)
 sequences.
 
 **Important**
@@ -12,11 +12,11 @@ data in your application (e.g. US postal code or address), I recommend [Faker](h
 
 Add this line to your application's Gemfile:
 
-    gem 'factory_girl_sequences', :group => :test
+    gem 'factory_bot_sequences', :group => :test
 
 Or install it yourself as:
 
-    $ gem install factory_girl_sequences
+    $ gem install factory_bot_sequences
 
 ## Sequences
 
@@ -172,10 +172,10 @@ Or install it yourself as:
 Basic example:
 
 ```ruby
-FactoryGirl.generate :email
+FactoryBot.generate :email
 # => "person1@example.com"
 
-FactoryGirl.generate :email
+FactoryBot.generate :email
 # => "person2@example.com"
 ```
 
@@ -195,11 +195,11 @@ factory :invite do
 end
 ```
 
-Check out FactoryGirl's [GETTING_STARTED](http://github.com/thoughtbot/factory_girl) for more information.
+Check out FactoryBot's [GETTING_STARTED](http://github.com/thoughtbot/factory_bot) for more information.
 
 ### Spork or TConsole
 
-For whose of you who are using spork or tconsole, consider adding `FactoryGirlSequences.reload` right after `FactoryGirl.reload`.
+For whose of you who are using spork or tconsole, consider adding `FactoryBotSequences.reload` right after `FactoryBot.reload`.
 
 ## Contributing
 
@@ -263,7 +263,7 @@ Thank you to all our amazing [contributors](http://github.com/melekes/factory_gi
 
 ### 0.0.3 / 2012-10-20
 
-* Pathed FactoryGirl.reload to add default sequences
+* Pathed FactoryBot.reload to add default sequences
 
 ### 0.0.3 / 2012-10-20
 

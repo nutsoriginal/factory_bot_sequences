@@ -1,9 +1,9 @@
 PATH
   remote: ../
   specs:
-    factory_girl_sequences (4.3.1)
+    factory_bot_sequences (4.3.1)
       activesupport (>= 4.2)
-      factory_girl (~> 4.0)
+      factory_bot (~> 4.0)
 
 GEM
   remote: https://rubygems.org/
@@ -73,10 +73,10 @@ GEM
     cucumber-wire (0.0.1)
     diff-lcs (1.2.5)
     erubis (2.7.0)
-    factory_girl (4.8.0)
+    factory_bot (4.8.0)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.8.0)
-      factory_girl (~> 4.8.0)
+    factory_bot_rails (4.8.0)
+      factory_bot (~> 4.8.0)
       railties (>= 3.0.0)
     ffi (1.9.17)
     gherkin (4.0.0)
@@ -149,8 +149,8 @@ DEPENDENCIES
   appraisal (~> 2.1)
   aruba (~> 0.14.2)
   cucumber (~> 2.4.0)
-  factory_girl_rails
-  factory_girl_sequences!
+  factory_bot_rails
+  factory_bot_sequences!
   rails (~> 4.2.7)
   rake
   sqlite3

@@ -218,6 +218,10 @@ Thank you to all our amazing [contributors](http://github.com/melekes/factory_gi
 
 ## Changelog
 
+### 4.8.3 / 2017-11-01
+
+* migrate to factory_bot
+
 ### 4.8.0 / 2017-01-14
 
 * updated dependencies (`activesupport >= 4.2`)

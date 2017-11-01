@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name          = "factory_bot_sequences"
-  gem.version       = "4.8.0"
+  gem.version       = "4.8.2"
   gem.authors       = ["Mikhail Rekhov"]
   gem.email         = ["nutsoriginal@gamil.com"]
   gem.description   = %q{factory_bot_sequences provides a collection of useful FactoryBot sequences}

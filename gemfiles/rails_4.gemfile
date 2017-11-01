@@ -13,4 +13,4 @@ group :test do
   gem "appraisal", "~> 2.1"
 end
 
-gemspec :path => "../"
+gemspec path: "../"

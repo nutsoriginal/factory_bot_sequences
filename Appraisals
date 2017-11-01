@@ -5,7 +5,7 @@ appraise "rails-4" do
 end
 
 appraise "rails-5" do
-  gem "rails", "~> 5.0.0"
+  gem "rails", "~> 5.1"
   gem "sqlite3"
   gem "factory_bot_rails"
   gem "listen"

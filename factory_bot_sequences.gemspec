@@ -4,7 +4,7 @@ Gem::Specification.new do |gem|
   gem.name          = "factory_bot_sequences"
   gem.version       = "4.8.3"
   gem.authors       = ["Mikhail Rekhov"]
-  gem.email         = ["nutsoriginal@gamil.com"]
+  gem.email         = ["nutsoriginal@gmail.com"]
   gem.description   = %q{factory_bot_sequences provides a collection of useful FactoryBot sequences}
   gem.summary       = %q{Collection of useful FactoryBot sequences}
   gem.homepage      = "http://github.com/nutsoriginal/factory_bot_sequences"

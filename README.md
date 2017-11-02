@@ -1,4 +1,4 @@
-# FactoryBotSequences [![Build Status](https://secure.travis-ci.org/melekes/factory_bot_sequences.png "Build Status")](http://travis-ci.org/nutsoriginal/factory_bot_sequences) [![Gem Version](https://badge.fury.io/rb/factory_girl_sequences.png)](http://badge.fury.io/rb/factory_girl_sequences)
+# FactoryBotSequences [![Build Status](https://secure.travis-ci.org/nutsoriginal/factory_bot_sequences.png "Build Status")](http://travis-ci.org/nutsoriginal/factory_bot_sequences) [![Gem Version](https://badge.fury.io/rb/factory_bot_sequences.png)](http://badge.fury.io/rb/factory_bot_sequences)
 
 Collection of useful [FactoryBot](http://github.com/thoughtbot/factory_bot)
 sequences.

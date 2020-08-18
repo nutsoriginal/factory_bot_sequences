@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name          = "factory_bot_sequences"
-  gem.version       = "4.8.3"
+  gem.version       = "4.8.4"
   gem.authors       = ["Mikhail Rekhov"]
   gem.email         = ["nutsoriginal@gmail.com"]
   gem.description   = %q{factory_bot_sequences provides a collection of useful FactoryBot sequences}
@@ -19,6 +19,6 @@ Gem::Specification.new do |gem|
   gem.rdoc_options      = %w(--line-numbers --inline-source --title factory_bot_sequences --main README.md)
   gem.extra_rdoc_files  = %w(README.md LICENSE)
 
-  gem.add_dependency 'factory_bot', '~> 4.0'
+  gem.add_dependency 'factory_bot', '>= 4.0'
   gem.add_dependency 'activesupport', '>= 4.2'
 end

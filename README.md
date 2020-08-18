@@ -218,6 +218,10 @@ Thank you to all our amazing [contributors](http://github.com/melekes/factory_gi
 
 ## Changelog
 
+### 4.8.4 / 2020-08-18
+
+* unlock factory_bot version
+
 ### 4.8.3 / 2017-11-01
 
 * migrate to factory_bot
